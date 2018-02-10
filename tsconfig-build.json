@@ -1,0 +1,14 @@
+{
+  "extends": "./tsconfig",
+  "compilerOptions": {
+    "outDir": "./publish/src",
+    "baseUrl": "./",
+    "importHelpers": true,
+    "module": "es2015",
+    "target": "es2015",
+    "declaration": true,
+    "types": [
+      "node"
+    ]
+  }
+}
